@@ -4,7 +4,7 @@ import typescript from '@rollup/plugin-typescript';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import dts from 'rollup-plugin-dts';
 
-const external = (id) => !id.startsWith('.') && !id.startsWith('/');
+const external = id => !id.startsWith('.') && !id.startsWith('/');
 
 export default defineConfig([
   // ESM and CJS builds
@@ -15,11 +15,13 @@ export default defineConfig([
         file: 'dist/index.js',
         format: 'esm',
         sourcemap: true,
+        exports: 'named',
       },
       {
         file: 'dist/index.cjs',
         format: 'cjs',
         sourcemap: true,
+        exports: 'named',
       },
     ],
     external,
@@ -53,4 +55,4 @@ export default defineConfig([
       }),
     ],
   },
-]); 
+]);
