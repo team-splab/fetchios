@@ -4,7 +4,7 @@ A modern, type-safe fetch library with Axios-like API for JavaScript/TypeScript 
 
 **Read this in other languages:** **English** | [한국어](README-ko.md)
 
-[![npm version](https://badge.fury.io/js/@team-splab/fetchios.svg)](https://badge.fury.io/js/@team-splab/fetchios)
+[![npm version](https://badge.fury.io/js/@team-splab%2Ffetchios.svg)](https://badge.fury.io/js/@team-splab/fetchios)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![codecov](https://codecov.io/gh/team-splab/fetchios/branch/main/graph/badge.svg)](https://codecov.io/gh/team-splab/fetchios)
