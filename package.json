@@ -1,5 +1,5 @@
 {
-  "name": "@splab/fetchios",
+  "name": "@team-splab/fetchios",
   "version": "1.0.0",
   "description": "A modern, type-safe fetch library with Axios-like API for JavaScript/TypeScript applications",
   "keywords": [

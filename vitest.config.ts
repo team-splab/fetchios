@@ -23,7 +23,7 @@ export default defineConfig({
       optimizer: {
         ssr: {
           enabled: true,
-          include: ['@splab/fetchios'],
+          include: ['@team-splab/fetchios'],
         },
       },
     },
