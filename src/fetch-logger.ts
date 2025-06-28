@@ -38,7 +38,7 @@ export const logRequestInterceptor: RequestInterceptor = async requestArgs => {
     `[${getNowString()}]`,
     request?.method,
     url.href,
-    !isBodyLoggingDisabled && request?.body ? JSON.stringify(request.body, null, 2) : '',
+    !isBodyLoggingDisabled && request?.body ? JSON.stringify(request.body, null, 2) : ''
   );
 
   return requestArgs;
@@ -56,7 +56,7 @@ export const logResponseInterceptor: ResponseInterceptor = async (response, requ
       request?.method,
       response.status,
       url.href,
-      !isBodyLoggingDisabled && response.body ? JSON.stringify(response.body, null, 2) : '',
+      !isBodyLoggingDisabled && response.body ? JSON.stringify(response.body, null, 2) : ''
     );
   } else {
     log(
@@ -70,7 +70,7 @@ export const logResponseInterceptor: ResponseInterceptor = async (response, requ
       request?.method,
       response.status,
       url.href,
-      !isBodyLoggingDisabled && response.body ? JSON.stringify(response.body, null, 2) : '',
+      !isBodyLoggingDisabled && response.body ? JSON.stringify(response.body, null, 2) : ''
     );
   }
 
