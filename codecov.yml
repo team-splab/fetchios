@@ -1,0 +1,23 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 95%
+        threshold: 1%
+    patch:
+      default:
+        target: 95%
+        threshold: 1%
+
+comment:
+  layout: "reach,diff,flags,tree"
+  behavior: default
+  require_changes: false
+
+ignore:
+  - "examples/**/*"
+  - "docs/**/*" 
+  - "*.config.*"
+  - "rollup.config.mjs"
+  - "vite.config.ts"
+  - "vitest.config.ts" 
